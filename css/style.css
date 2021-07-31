@@ -28,6 +28,7 @@
 .titres{
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
 
@@ -39,6 +40,7 @@ h2{
 
 form{position: relative;
     border: none;
+
    
 }
 
@@ -46,6 +48,7 @@ input{
     padding-left: 10px;
     outline: none;
     border: 1px solid black;
+    cursor:pointer; 
 }
 
 .fa-search{
@@ -60,10 +63,18 @@ input{
 
 .menu-nav{
     display: flex;
+    cursor:pointer; 
 }
 
 .liste-nav:nth-child(1){
     margin-left: -35px;
+}
+
+.menu:hover,
+.contenu:hover,
+.plan-du-site:hover{
+    color: rgba(0, 0, 255, 0.575);
+    transition: 0.3s;
 }
 
 /* ------------------------------ section barre --------------------------*/
