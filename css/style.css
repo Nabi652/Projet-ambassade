@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+  }
+  
+  body {
+    /* text-align: center; */
+    margin: 0;
+    padding: 0;
+
+    min-height: 200vh; /* fait deux fois la taille de l'écran utilisateur*/
+    overflow: hidden;
+  }
+
+  /* -------------------------- header -------------------------------*/ 
+
+  header{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+}
+
+/* ----------------------- ensemble titre h1 et h2 ------------------------------*/
+
+.titres{
+    display: flex;
+    flex-direction: column;
+}
+
+
+h2{
+    font-weight: normal;
+}
+
+/* ----------------------- barre de recherche ---------------------------*/
+
+form{position: relative;
+    border: none;
+   
+}
+
+input{
+    padding-left: 10px;
+    outline: none;
+    border: 1px solid black;
+}
+
+.fa-search{
+    position: absolute;
+    right: 4px;
+    bottom: 2px;
+    padding-right: 5px;
+    color: rgba(0, 0, 0, 0.541);
+}
+
+/* ---------------- menu nav des 3 éléments -------------------------*/ 
+
+.menu-nav{
+    display: flex;
+}
+
+.liste-nav:nth-child(1){
+    margin-left: -35px;
+}
+
+/* ------------------------------ section barre --------------------------*/
+
+/* -------------------- ligne au dessus border-top     ---------------------*/ 
+.border-top{
+    border-top: 1px solid black;
+    width: 100%;
+    left: 5px;
+    position: absolute;    
+}
+/* ------------------- ligne en dessous border-bottom ------------------*/
+
+.border-bottom{
+    border-top: 1px solid black;
+    width: 100%;
+    left: 5px;
+    position: absolute;
+}
+
+.barre-info{
+    width: 70%;
+    margin: auto;
+    cursor: pointer;
+ 
+}
+
+.liste-barre{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 20px;    
+}
+
+
+.ambassade,
+.service-citoyens, 
+.visas-pour-france,
+.vivre-au-japon, 
+.presence-francaise,
+.actualites,
+.coronavirus{
+    border-right: 1px solid black;
+    padding-right: 15px;
+    height: 30px;
+}
+
+.ambassade:hover,
+.service-citoyens:hover,
+.visas-pour-france:hover,
+.vivre-au-japon:hover,
+.presence-francaise:hover,
+.actualites:hover,
+.coronavirus:hover
+
+{
+    color: rgba(0, 0, 255, 0.575);
+    transition: 0.3s;
+}
+
