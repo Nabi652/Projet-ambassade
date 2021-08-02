@@ -171,12 +171,56 @@ input {
   width: 300px;
 }
 
-.article1 {
+/* ----------------- span ---------------------*/
+
+.article1,
+.article2,
+.article3 {
   display: flex;
   width: 100%;
+  cursor: pointer;
+  position: relative;
 }
 
-.article1-img1 {
-  width: 220x;
-  height: 120px;
+.article1-img,
+.article2-img,
+.article3-img {
+  width: 220px;
+  height: 130px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+span {
+  position: absolute;
+  font-size: small;
+  color: rgba(0, 0, 0, 0.507);
+  top: -5px;
+}
+
+.article1-h3,
+.article2-h3,
+.article3-h3 {
+  font-size: 15px;
+}
+
+.article1-h3:hover,
+.article2-h3:hover,
+.article3-h3:hover {
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.article1-p,
+.article2-p,
+.article3-p {
+  font-size: 11px;
+  margin-top: -5px;
+}
+
+.ensemble-article1,
+.ensemble-article2,
+.ensemble-article3 {
+  padding-left: 10px;
+  width: 100%;
 }
