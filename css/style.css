@@ -163,7 +163,7 @@ input {
 
 /* -------------------------------- section actualités ------------------*/
 .box-actualites {
-  height: 1000px;
+  height: auto;
   width: 600px;
   border: 3px solid rgba(0, 0, 0, 0.61);
 }
@@ -175,7 +175,9 @@ input {
 
 .article1,
 .article2,
-.article3 {
+.article3,
+.article4,
+.article5 {
   display: flex;
   width: 100%;
   cursor: pointer;
@@ -184,7 +186,9 @@ input {
 
 .article1-img,
 .article2-img,
-.article3-img {
+.article3-img,
+.article4-img,
+.article5-img {
   width: 220px;
   height: 130px;
   margin-left: 20px;
@@ -200,27 +204,35 @@ span {
 
 .article1-h3,
 .article2-h3,
-.article3-h3 {
+.article3-h3,
+.article4-h3,
+.article5-h3 {
   font-size: 15px;
 }
 
 .article1-h3:hover,
 .article2-h3:hover,
-.article3-h3:hover {
+.article3-h3:hover,
+.article4-h3:hover,
+.article5-h3:hover {
   text-decoration: underline;
   transition: 0.3s;
 }
 
 .article1-p,
 .article2-p,
-.article3-p {
+.article3-p,
+.article4-p,
+.article5-p {
   font-size: 11px;
   margin-top: -5px;
 }
 
 .ensemble-article1,
 .ensemble-article2,
-.ensemble-article3 {
+.ensemble-article3,
+.ensemble-article4,
+.ensemble-article5 {
   padding-left: 10px;
   width: 100%;
 }
