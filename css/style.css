@@ -167,9 +167,6 @@ input {
   width: 600px;
   border: 3px solid rgba(0, 0, 0, 0.61);
 }
-.infosGenerales {
-  width: 300px;
-}
 
 /* ----------------- span ---------------------*/
 
@@ -235,4 +232,39 @@ span {
 .ensemble-article5 {
   padding-left: 10px;
   width: 100%;
+}
+
+/* ----------------------- box aside ---------------------------------*/
+
+.infosGenerales {
+  width: 300px;
+}
+
+.coordonnees,
+.accesRapide {
+  border: 3px solid rgba(0, 0, 0, 0.61);
+  background-color: #f8f7f7;
+  margin-bottom: 30px;
+}
+
+.coordonnees-h3,
+.accesRapide-h3 {
+  color: rgba(0, 0, 255, 0.575);
+}
+
+.coordonnees-h3,
+.coordonnees-p {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.accesRapide-ul,
+.accesRapide-h3 {
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+.accesRapide-ul li:hover {
+  text-decoration: underline;
+  transition: 0.2s;
 }
