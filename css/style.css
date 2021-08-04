@@ -180,6 +180,7 @@ input {
   width: 100%;
   cursor: pointer;
   position: relative;
+  margin-top: 30px;
 }
 
 .article1-img,
@@ -322,4 +323,63 @@ span {
 
 .fa-youtube {
   color: #fd0100;
+}
+
+/* --------------------- nouvelle section -----------------------------*/
+
+/* ----------------------- agenda -----------------------*/
+
+.agenda {
+  border-top: 4px solid #104591;
+  border-left: 1px solid rgba(128, 128, 128, 0.541);
+  border-right: 1px solid rgba(128, 128, 128, 0.541);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.753);
+  background-color: #f8f7f7;
+  width: 40%;
+}
+
+/* ----------------- bloc violet date ---------------------*/
+.bloc-violet {
+  width: 60px;
+  height: 80px;
+  background-color: #8f319d;
+}
+
+.day,
+.month {
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.month {
+  background: #6d2178;
+  height: 30px;
+  padding-top: 5px;
+}
+
+.bloc-violet a {
+  text-decoration: none;
+  text-align: center;
+}
+
+/* ------------------------- ensemble  : 22 avril et 1/08 ------------------*/
+
+.agenda1-2,
+.agenda2-2 {
+  display: flex;
+  position: relative;
+}
+
+/* ------------------------- texte ------------------------*/
+
+.agenda1-2 p,
+.agenda2-2 p {
+  font-weight: bold;
+}
+
+/* ------------------------ div regroupant le texte seulement ------------*/
+
+.ensemble-agenda1-2,
+.ensemble-agenda2-2 {
+  padding-left: 10px;
 }
