@@ -658,19 +658,18 @@ footer {
   /* ------------------- box actualités --------------*/
 
   .box-actualites {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
     margin-bottom: 50px;
     height: auto;
-    width: 100%;
   }
 
-  .box-actualites h3 {
-    width: 270px;
-    margin-left: 10px;
-  }
-
-  .box-actualites p {
-    margin-left: 10px;
-    width: 315px;
+  .testons {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
   }
 
   .box-actualites span {
@@ -685,7 +684,6 @@ footer {
   .article5 {
     display: flex;
     flex-direction: column;
-    margin-left: 40px;
   }
 
   /* -------------------- aside --------------------------*/
@@ -703,7 +701,15 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 50px;
+    width: 100%;
+  }
+
+  .ensemble1-3,
+  .ensemble2-3,
+  .ensemble3-3 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
   }
 
   .actualites-diplomatiques,
