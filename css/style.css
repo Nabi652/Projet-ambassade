@@ -347,6 +347,114 @@ span {
   border-right: 1px solid rgba(128, 128, 128, 0.541);
   border-bottom: 1px solid rgba(128, 128, 128, 0.753);
   background-color: #f8f7f7;
+  width: 300px;
+}
+
+.actualites-diplomatiques,
+.economie,
+.sciences-technologies {
+  width: 236px;
+}
+
+.culture,
+.noustrouver,
+.economie,
+.sciences-technologies {
+  margin-top: 25px;
+}
+
+.lettre-information {
+  margin-top: 60px;
+}
+
+/*------------ box ensemble2-3 -------------------*/
+
+.actualites-diplomatiques-h3,
+.economie-h3,
+.sciences-technologies-h3,
+.agenda-h3,
+.culture-h3,
+.noustrouver-h3,
+.activite-sociale-h3,
+.lettre-information-h3 {
+  padding-left: 10px;
+  color: #104591;
+}
+
+.actualites-diplomatiques-ul,
+.economie-ul,
+.sciences-technologies-ul,
+.culture-ul {
+  font-size: small;
+  padding: 0;
+}
+
+.actualites-diplomatiques-ul li,
+.economie-ul li,
+.sciences-technologies-ul li,
+.culture-ul li,
+.lettre-information-p {
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.actualites-diplomatiques-ul li:hover,
+.economie-ul li:hover,
+.sciences-technologies-ul li:hover,
+.culture-ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* --------------- ensemble3-3 -----------------------*/
+
+.activite-sociale {
+  padding-bottom: 655px;
+}
+
+.lettre-information {
+  position: relative;
+}
+
+#lettre-info-span {
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  color: #104591;
+}
+
+input {
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  width: 220px;
+}
+
+button {
+  margin-left: -4px;
+  border: none;
+  background: white;
+  color: #104591;
+}
+
+.activite-sociale {
+  position: relative;
+}
+
+#activite-sociale-span {
+  top: 50px;
+  left: 10px;
+  position: absolute;
+}
+
+/* ------------------------- image google map ---------------*/
+
+.img-noustrouver {
+  width: 90%;
+  margin-left: 15px;
+  padding-bottom: 10px;
+  cursor: pointer;
 }
 
 /* ----------------- bloc violet date ---------------------*/
@@ -354,6 +462,12 @@ span {
   width: 60px;
   height: 80px;
   background-color: #8f319d;
+  margin-left: 10px;
+}
+
+.text-agenda1,
+.text-agenda2 {
+  font-size: small;
 }
 
 .day,
@@ -398,4 +512,5 @@ span {
   display: flex;
   width: 66%;
   margin: auto;
+  justify-content: space-between;
 }
