@@ -241,30 +241,57 @@ span {
 }
 
 .coordonnees,
-.accesRapide {
-  border: 3px solid rgba(0, 0, 0, 0.61);
+.accesRapide,
+.infos-utiles,
+.liens-utiles,
+.reseaux-sociaux {
+  border-top: 4px solid #104591;
+  border-left: 1px solid rgba(128, 128, 128, 0.541);
+  border-right: 1px solid rgba(128, 128, 128, 0.541);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.753);
   background-color: #f8f7f7;
   margin-bottom: 30px;
 }
+/* ----------------------- titres h3 de chaque boite aside -------------------*/
 
-.coordonnees-h3,
-.accesRapide-h3 {
+.accesRapide-h3,
+.infos-utiles-h3,
+.liens-utiles-h3,
+.reseaux-sociaux-h3 {
   color: rgba(0, 0, 255, 0.575);
+  padding-left: 15px;
 }
 
-.coordonnees-h3,
-.coordonnees-p {
+.coordonnees-h3 {
+  color: rgba(0, 0, 255, 0.575);
   margin-left: 15px;
-  cursor: pointer;
 }
 
+/* --------------------------------- texte p et ul de chaque boite aside ------------------*/
+
+.coordonnees-p,
 .accesRapide-ul,
-.accesRapide-h3 {
+.infos-utiles-ul,
+.liens-utiles-ul {
   padding-left: 15px;
   cursor: pointer;
+  font-size: small;
 }
 
-.accesRapide-ul li:hover {
+/* ------------ hover sur les boites acces rapide / infos utiles/ liens utiles ---------*/
+
+.accesRapide-ul li:hover,
+.infos-utiles-ul li:hover,
+.liens-utiles-ul li:hover {
   text-decoration: underline;
   transition: 0.2s;
+  cursor: pointer;
+}
+
+/* --------------------------- espace entre chaque lignes de texte -------------------*/
+
+.accesRapide-ul li,
+.infos-utiles-ul li,
+.liens-utiles-ul li {
+  padding-bottom: 5px;
 }
