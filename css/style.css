@@ -29,6 +29,9 @@ header {
   flex-direction: column;
   cursor: pointer;
 }
+h1 {
+  font-size: xx-large;
+}
 
 h2 {
   font-weight: normal;
@@ -51,7 +54,7 @@ input {
 .fa-search {
   position: absolute;
   right: 4px;
-  bottom: 2px;
+  bottom: 16px;
   padding-right: 5px;
   color: rgba(0, 0, 0, 0.541);
 }
@@ -513,4 +516,205 @@ button {
   width: 66%;
   margin: auto;
   justify-content: space-between;
+}
+
+/* --------------------------- footer ---------------*/
+
+footer {
+  display: flex;
+  background-color: #323136;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.titre-footer1,
+.titre-footer2,
+.titre-footer3 {
+  color: white;
+  cursor: pointer;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
+
+.footer-ul1 li,
+.footer-ul2 li,
+.footer-ul3 li {
+  font-size: small;
+  padding-top: 10px;
+  color: white;
+}
+
+.footer-ul1 li:hover,
+.footer-ul2 li:hover,
+.footer-ul3 li:hover {
+  text-decoration: underline;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.titre-footer1,
+.titre-footer2,
+.titre-footer3 {
+  font-size: larger !important;
+}
+
+.titre-footer1:hover,
+.titre-footer2:hover,
+.titre-footer3 {
+  text-decoration: none !important;
+}
+
+/* --------------------- media query ------------------*/
+
+@media only screen and (min-width: 399px) and (max-width: 700px) {
+  /* .img-logo {
+    height: 200px;
+  }
+
+  .titres {
+    position: relative;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 20px;
+    position: absolute;
+    top: 100px;
+  }
+
+  .menu-nav {
+    position: absolute;
+    top: 250px;
+    margin-bottom: 350px;
+  } */
+
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .liste-nav {
+    display: flex;
+  }
+
+  .contenu {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .barre-de-recherche {
+    margin-top: -20px;
+    margin-left: -10px;
+    width: 150px;
+  }
+
+  .fa-search {
+    left: 210px;
+  }
+  .barre-info {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border: none;
+    justify-content: center;
+  }
+  .liste-barre {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  .ambassade,
+  .service-citoyens,
+  .visas-pour-france,
+  .vivre-au-japon,
+  .presence-francaise,
+  .actualites,
+  .coronavirus {
+    border: none;
+    text-align: center;
+  }
+
+  .border-bottom,
+  .border-top {
+    border-top: none;
+  }
+
+  /* ------------------- slides --------------*/
+
+  .slide {
+    display: none;
+  }
+
+  /* ------------ ensemble section & aside ------------------*/
+
+  .ensemble-actualites-aside {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  /* ------------------- box actualités --------------*/
+
+  .box-actualites {
+    margin-bottom: 50px;
+    height: auto;
+    width: 100%;
+  }
+
+  .box-actualites h3 {
+    width: 270px;
+    margin-left: 10px;
+  }
+
+  .box-actualites p {
+    margin-left: 10px;
+    width: 315px;
+  }
+
+  .box-actualites span {
+    top: 140px;
+    left: 18px;
+  }
+
+  .article1,
+  .article2,
+  .article3,
+  .article4,
+  .article5 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+  }
+
+  /* -------------------- aside --------------------------*/
+
+  .infosGenerales {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
+
+  /* ---------------box agenda et cie ------------------ */
+
+  .box-infos2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+  }
+
+  .actualites-diplomatiques,
+  .activite-sociale {
+    margin-top: 30px;
+  }
+
+  /* ---------------- footer ----------------------*/
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
 }
