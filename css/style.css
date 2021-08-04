@@ -163,9 +163,10 @@ input {
 
 /* -------------------------------- section actualités ------------------*/
 .box-actualites {
-  height: auto;
+  height: 990px;
   width: 600px;
-  border: 3px solid rgba(0, 0, 0, 0.61);
+  border: 2px solid rgba(0, 0, 0, 0.37);
+  border-top: 4px solid #6d2178;
 }
 
 /* ----------------- span ---------------------*/
@@ -294,4 +295,31 @@ span {
 .infos-utiles-ul li,
 .liens-utiles-ul li {
   padding-bottom: 5px;
+}
+
+/* ----------------- icônes des réseaux sociaux ------------*/
+
+.fa-twitter-square,
+.fa-facebook-square,
+.fa-instagram,
+.fa-youtube {
+  font-size: 55px;
+}
+
+.icones {
+  text-align: center;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.fa-twitter-square {
+  color: #00b6ef;
+}
+
+.fa-facebook-square {
+  color: #0061a8;
+}
+
+.fa-youtube {
+  color: #fd0100;
 }
