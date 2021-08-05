@@ -566,29 +566,7 @@ footer {
 
 /* --------------------- media query ------------------*/
 
-@media only screen and (min-width: 399px) and (max-width: 700px) {
-  /* .img-logo {
-    height: 200px;
-  }
-
-  .titres {
-    position: relative;
-  }
-  h1 {
-    font-size: 20px;
-  }
-  h2 {
-    font-size: 20px;
-    position: absolute;
-    top: 100px;
-  }
-
-  .menu-nav {
-    position: absolute;
-    top: 250px;
-    margin-bottom: 350px;
-  } */
-
+@media only screen and (min-width: 399px) and (max-width: 900px) {
   header {
     display: flex;
     flex-direction: column;
@@ -684,6 +662,7 @@ footer {
   .article5 {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
 
   /* -------------------- aside --------------------------*/
@@ -722,5 +701,48 @@ footer {
   footer {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+  /* ------------------------ barre info -------------*/
+
+  .barre-info {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border: none;
+    justify-content: center;
+  }
+  .liste-barre {
+    display: flex;
+
+    padding-top: 10px;
+  }
+
+  .ambassade,
+  .service-citoyens,
+  .visas-pour-france,
+  .vivre-au-japon,
+  .presence-francaise,
+  .actualites,
+  .coronavirus {
+    border: none;
+  }
+
+  .slide {
+    display: none;
+  }
+
+  .box-actualites {
+    height: auto;
+    margin-right: 25px;
+    margin-bottom: 20px;
+  }
+
+  .box-infos2 {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
